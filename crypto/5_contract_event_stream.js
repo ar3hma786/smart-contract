@@ -12,7 +12,7 @@ const ERC20_ABI = [
     "event Transfer(address indexed from, address indexed to, uint amount)"
 ];
 
-const address = '0x6B175474E89094C44Da98b954EedeAC495271d0F' // DAI Contract
+const address = '' // DAI Contract
 const contract = new ethers.Contract(address, ERC20_ABI, provider)
 
 const main = async () => {
